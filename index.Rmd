@@ -11,6 +11,9 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/leaflet, libraries/dygraphs]}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 assets      : {assets: ../../assets}
+output: 
+  html_document: 
+    keep_md: yes
 ---
 <style type="text/css">
   body {background:grey transparent;
@@ -18,9 +21,10 @@ assets      : {assets: ../../assets}
 </style>
 
 ```{r echo=FALSE, warning=FALSE,message=FALSE}
-library("devtools")  
-library('slidify', 'ramnathv')  
-library('slidifyLibraries', 'ramnathv')
+require("devtools")  
+#library('slidify', 'ramnathv')  
+#library('slidifyLibraries', 'ramnathv')
+library(slidify)
 require(dplyr)
 require(ggplot2)
 require(ggthemes)

@@ -11,6 +11,9 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/leaflet, libraries/dygraphs]}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 assets      : {assets: ../../assets}
+output: 
+  html_document: 
+    keep_md: yes
 ---
 <style type="text/css">
   body {background:grey transparent;
