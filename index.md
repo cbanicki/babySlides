@@ -53,35 +53,4 @@ Select `Popular Names` and see a word cloud (by gender) of the most popular name
 There is a lot more to [discover] (https://www.kaggle.com/kaggle/us-baby-names).  For example, some R code run during this `Slidify` presentation suggest there has been a shift away from traditional names since the 1950's.
 
 <img src="assets/fig/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" angle=90 style="display: block; margin: auto;" />
----
-
-
-
-*** =image
-
-<img src=http://frogonablog.com/Timeline.PNG>
-
----
-
-*** =image
-
-<img src=http://frogonablog.com/word_cloud.PNG>
-
----
-
-*** =image
-
-<img src=http://frogonablog.com/timelineFiltered.PNG>
-
----  &checkbox
-
-## Multi Text
-
-*** =image
-
-<img src=http://frogonablog.com/timelineFiltered.PNG>
-
-
---- .segue bg:grey
-
 
