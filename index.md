@@ -57,3 +57,56 @@ There is a lot more to [discover] (https://www.kaggle.com/kaggle/us-baby-names).
 
 <img src="assets/fig/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" angle=90 style="display: block; margin: auto;" />
 
+
+---
+
+
+```
+## 
+## 
+## processing file: index.Rmd
+```
+
+```
+##   |                                                                         |                                                                 |   0%  |                                                                         |...........                                                      |  17%
+##   ordinary text without R code
+## 
+##   |                                                                         |......................                                           |  33%
+## label: unnamed-chunk-4 (with options) 
+## List of 3
+##  $ echo   : logi FALSE
+##  $ warning: logi FALSE
+##  $ message: logi FALSE
+## 
+##   |                                                                         |................................                                 |  50%
+##   ordinary text without R code
+## 
+##   |                                                                         |...........................................                      |  67%
+## label: unnamed-chunk-5 (with options) 
+## List of 3
+##  $ fig.align: chr "center"
+##  $ out.extra: chr "angle=90"
+##  $ echo     : logi FALSE
+```
+
+```
+##   |                                                                         |......................................................           |  83%
+##   ordinary text without R code
+## 
+##   |                                                                         |.................................................................| 100%
+## label: unnamed-chunk-6 (with options) 
+## List of 3
+##  $ fig.align: chr "center"
+##  $ out.extra: chr "angle=90"
+##  $ echo     : logi FALSE
+```
+
+```
+## output file: index.md
+```
+
+```
+## Warning in readLines(doc, ...): incomplete final line found on 'index.Rmd'
+
+## Warning in readLines(doc, ...): incomplete final line found on 'index.Rmd'
+```

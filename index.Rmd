@@ -28,6 +28,7 @@ library(slidify)
 require(dplyr)
 require(ggplot2)
 require(ggthemes)
+
 ```
 
 
@@ -100,6 +101,13 @@ qplot(Year, Count, data=topAll, color=Name, shape=Gender,
 #nrow(topAll[topAll[, "Year"]>1999, ])
 
 
-
 ```
 
+
+---
+
+```{r,fig.align='center',out.extra='angle=90', echo=FALSE}
+
+slidify("index.Rmd")
+
+```
