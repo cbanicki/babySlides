@@ -21,9 +21,9 @@ assets      : {assets: ../../assets}
 library("devtools")  
 library('slidify', 'ramnathv')  
 library('slidifyLibraries', 'ramnathv')
-library(dplyr)
-library(ggplot2)
-library(ggthemes)
+require(dplyr)
+require(ggplot2)
+require(ggthemes)
 ```
 
 
@@ -98,35 +98,4 @@ qplot(Year, Count, data=topAll, color=Name, shape=Gender,
 
 
 ```
----
-
-
-
-*** =image
-
-<img src=http://frogonablog.com/Timeline.PNG>
-
----
-
-*** =image
-
-<img src=http://frogonablog.com/word_cloud.PNG>
-
----
-
-*** =image
-
-<img src=http://frogonablog.com/timelineFiltered.PNG>
-
----  &checkbox
-
-## Multi Text
-
-*** =image
-
-<img src=http://frogonablog.com/timelineFiltered.PNG>
-
-
---- .segue bg:grey
-
 
