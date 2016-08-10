@@ -103,11 +103,3 @@ qplot(Year, Count, data=topAll, color=Name, shape=Gender,
 
 ```
 
-
----
-
-```{r,fig.align='center',out.extra='angle=90', echo=FALSE}
-
-slidify("index.Rmd")
-
-```
